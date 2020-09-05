@@ -1,0 +1,181 @@
+* {
+    margin: 0; 
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'sans-serif';
+    box-sizing: border-box;
+    width: 100%;
+   
+  
+}
+.hero {
+    width: 100%;
+    height: 100%;
+    background-image: url('./pollen.jpeg');
+    background-size: cover;
+
+
+}
+
+.logo {
+    margin-right: 20%;
+}
+
+
+.link {
+    color: black;
+    text-decoration-line: none;
+    font-size: .8vw;
+    font-family: 'sans-serif';
+    font-weight: 550;
+ 
+
+}
+
+
+
+nav {
+    width: 100%;
+    padding: 1%;
+ 
+    
+   
+}
+
+.textbox {
+
+    height: fit-content;
+    width: 72%;
+    font-size: 15rem;
+    padding-left: 15%;
+ 
+
+    
+}
+
+h1 {
+    font-size: 2.5vw;
+    opacity: 0.89;
+    
+}
+
+.mainTitle {
+    font-size: 3vw;
+}
+
+@media only screen and (max-width: 800px) {
+    body .mainTitle {
+        font-size: 7vw;
+    }
+
+    body .textbox {
+        
+        width: 100%;
+        padding: 0%;
+       
+    }
+  }
+
+li {
+    font-size: 25px;
+    opacity: 0.89;
+    list-style: none;
+    padding: 6px 0 6px;
+}
+
+.containerInfo {
+    padding-top: 15%;
+    color: black;
+    flex-wrap: nowrap;
+    width: 100%;
+
+
+}
+
+button {
+    width: 180px;
+    height: 50px;
+    outline: none;
+    background-color: greenyellow;
+    border-radius: 20px;
+    border: none;
+    margin-top: 40px;
+    opacity: 0.89;
+    letter-spacing: .04em;
+    font-weight: bold;
+    color: black;
+}
+
+button:hover {
+    cursor: pointer;
+    
+}
+
+.secondsheet {
+    width: 100%; 
+    padding: 8%;  
+    display: grid;
+    grid-template-rows: 180px auto;
+    grid-template-columns: auto auto;
+
+  
+ 
+}
+.questions {
+    display: grid;
+    grid-template-columns: 560px 100px;
+    padding: 10px;
+   
+    width: 100%;
+    grid-area: 2 / 1;
+    height: fit-content;
+   
+
+}
+
+.question {
+    font-size: 22px;
+}
+
+input[type=checkbox] {
+    transform: scale(2.5);
+    margin-top: 28px;
+    margin-left: 20px;
+    
+  
+}
+
+.instruks {
+    height: fit-content;
+   
+}
+
+.acuity {
+  
+    width: 913px;
+    grid-area: 1 / 2;
+    display: none;
+}
+
+.noneed {
+    display: none;
+    width: 80%; 
+
+}
+
+h2 {
+    
+    margin-right: auto;
+}
+
+.links {
+    
+    display: flex;
+    align-items: center;
+
+}
